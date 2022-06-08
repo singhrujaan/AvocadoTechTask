@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App bg-gray-300 h-auto">
       <Navbar/>
+      <h1>Hello world</h1>
       <Home/>
       <span className="font-semibold mx-6">Quesno. 2</span>
       <button className="font-semibold bg-slate-200 rounded-sm px-3 py-2 mx-2" onClick={()=>setRtk(!rtk)}>Api fetch using RTK query</button>
